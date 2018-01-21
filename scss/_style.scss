@@ -1,0 +1,29 @@
+.logo{
+    max-width: 2.5rem;
+}
+
+.content{
+    background: $secondary-color;
+    margin-top: .8rem;
+    padding: .6rem;
+    
+    .block{
+        border-bottom: 2px solid white; 
+        margin-bottom: 30px; 
+        padding-bottom: 20px;
+    }
+}
+.menu-icon{
+    float: right;
+}
+
+
+ @include breakpoint(medium down) {
+    .orbit-wrapper{
+        background: rgba($black, 0.5);
+    }
+    .orbit-caption{
+        position: static;
+        text-align: center;
+    }
+  }
