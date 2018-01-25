@@ -47,7 +47,6 @@ footer{
  @include breakpoint(medium down) {
     .orbit-wrapper{
         background: rgba($black, 0.5);
-        margin-bottom: 30px; 
     }
     .orbit-caption{
         position: static;
