@@ -21,17 +21,31 @@
           <picture class="logo-lg">
             <source media="(min-width: 680px)" srcset="img/logo.png">
             <source srcset="img/logo-sm.png">
-            <img src="img/logo.png" alt="mobile sarnatec logo" >
+            <img src="img/logo.png" alt="mobile sarnatec logo">
           </picture>
         </a>
       </div>
       <div id="topbar-responsive" class="topbar-responsive-links">
         <div class="top-bar-right">
-          <ul class="menu simple vertical medium-horizontal">
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <ul class="dropdown menu vertical medium-horizontal" data-responsive-menu="drilldown medium-dropdown">
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="projects.html">Projects</a>
+            </li>
+            <li>
+              <a href="">Products</a>
+              <ul class="menu vertical">
+                <li>
+                  <a href="sika.html">Sika Solutions</a>
+                  <a href="swiss.html">Swisspearl</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
