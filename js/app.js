@@ -1,4 +1,4 @@
-$(document).foundation();
+// $(document).foundation();
 
 // var $grid = $('.grid').imagesLoaded(function () {
     // init Masonry after all images have loaded
@@ -7,4 +7,4 @@ $(document).foundation();
         columnWidth: '.grid-sizer',
         percentPosition: true
     });
-// });
+// });  
