@@ -163,6 +163,16 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/masonry.js"></script>
     <script src="js/app.js"></script>
+    <script>
+    // var $grid = $('.grid').imagesLoaded(function () {
+        // init Masonry after all images have loaded
+        $('.grid').masonry({
+            itemSelector: '.grid-item',
+            columnWidth: '.grid-sizer',
+            percentPosition: true
+        });
+// });  
+    </script>
 </body>
 
 </html>
