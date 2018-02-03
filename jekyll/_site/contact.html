@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sarnatec - {{page.title}}</title>
+  <title>Sarnatec - Contact</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:900|Roboto:400,400i,700" rel="stylesheet">
   <link rel="stylesheet" href="css/app.css">
 </head>
@@ -28,29 +28,70 @@
       <div id="topbar-responsive" class="topbar-responsive-links">
         <div class="top-bar-right">
           <ul class="dropdown menu vertical medium-horizontal" data-responsive-menu="drilldown medium-dropdown">
-            {% if site.data.nav.main_nav[0] %}
-              {%for item in site.data.nav.main_nav %}
+            
+              
               <li>
-                <a href="{{ item.url }}">{{ item.title }}</a>
-                {% if item.subnav[0] %}
-                <ul class="menu vertical">
-                  {% for entry in item.subnav %}
-                  <li>
-                    <a href="{{ entry.url }}">{{ entry.title }}</a>
-                  </li>
-                  {% endfor %}
-                </ul>
-                {% endif %}
+                <a href="about.html">about</a>
+                
               </li>
-              {% endfor %}
-            {% endif %}
+              
+              <li>
+                <a href="projects.html">projects</a>
+                
+              </li>
+              
+              <li>
+                <a href="">products</a>
+                
+                <ul class="menu vertical">
+                  
+                  <li>
+                    <a href="sika.html">Sika Solutions</a>
+                  </li>
+                  
+                  <li>
+                    <a href="swiss.html">Swisspearl</a>
+                  </li>
+                  
+                </ul>
+                
+              </li>
+              
+              <li>
+                <a href="contact.html">contact</a>
+                
+              </li>
+              
+            
           </ul>
         </div>
       </div>
     </nav>
     <div class="content">
       <div class="grid-x grid-margin-y grid-padding-x">
-          {{content}}
+          <div class="cell large-4 contact block">
+    <h1>Contact</h1>
+    <p>Write to us if you have questions to SARNATEC or would like technical advice.<p>
+    <form action="#" class="grid-x grid-padding-x">
+            <div class="medium-3 cell">
+                <input type="text" placeholder="Your Name">
+            </div>
+            <div class="medium-3 cell">
+                <input type="text" placeholder="Your Email Address">
+            </div>
+            <div class="medium-6 cell"><input type="text" placeholder="Subject"></div>
+            <div class="medium-6 cell"><textarea placeholder="Your Message" rows="9"></textarea></div>
+            <div class="medium-6 cell">
+                <input type="submit" class="button hollow" value="Submit">
+            </div>
+    </form>
+</div>
+<div class="cell large-2 block">
+    <h2>Our Location</h2>
+    <p><b>Address</b><br>No. 54 Jalan TSB 3,<br> Taman Industri Sungai Buloh,<br> 47810 Petaling Jaya<br> Selangor</p>
+    <p><b>Phone</b><br>Tel: 603 6151 9837<br> Fax: 603 6151 2398</p>
+</div>
+
       </div>
     </div>
 
