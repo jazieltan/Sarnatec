@@ -1,0 +1,16 @@
+main_nav:
+- title: about
+  url: about.html
+
+- title: projects
+  url: projects.html
+
+- title: products
+  subnav:
+  - title: Sika Solutions
+    url: sika.html
+  - title: Swisspearl
+    url: swiss.html
+
+- title: contact
+  url: contact.html

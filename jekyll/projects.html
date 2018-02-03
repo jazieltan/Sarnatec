@@ -1,0 +1,18 @@
+---
+title: Projects
+layout: projects
+img-path: img/projects/
+---
+
+<h1 class="cell">{{page.title}}</h1>
+<div class="cell">
+    <div class="grid">
+        <div class="grid-sizer"></div>
+        {% for projects in site.data.projects %}
+        <div class="grid-item">
+            <img src="{{ page.img-path }}{{ projects.filename }}" alt="">
+            <span>{{projects.title}}</span>
+        </div>
+        {% endfor %}
+    </div>
+</div>
