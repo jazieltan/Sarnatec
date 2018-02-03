@@ -69,6 +69,15 @@
     <script src="js/masonry.js"></script>
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script src="js/app.js"></script>
+    <script type="text/javascript">
+    var $grid = $('.grid').imagesLoaded( function() {
+      $grid.masonry({
+          itemSelector: '.grid-item',
+          columnWidth: '.grid-sizer',
+          percentPosition: true
+      });
+    });
+    </script>
 </body>
 
 </html>
