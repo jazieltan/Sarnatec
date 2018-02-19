@@ -4,8 +4,6 @@
 @import 'foundation';
 @import 'motion-ui';
 
-
-
 //framework includes
 @include foundation-global-styles;
 //@include foundation-grid;
@@ -57,5 +55,5 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-//custom import 
+//custom import
 @import 'style';

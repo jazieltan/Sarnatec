@@ -13,8 +13,8 @@
         width: 100%;
     }
     .block{
-        border-bottom: 2px solid white; 
-        margin-bottom: 30px; 
+        border-bottom: 2px solid white;
+        margin-bottom: 30px;
         padding-bottom: 20px;
         &:last-child{
                 border: none;
@@ -84,8 +84,8 @@ form *{
 // projects
 /* fluid 5 columns */
 .grid-sizer,
-.grid-item { 
-    width: 100%; 
+.grid-item {
+    width: 100%;
     margin: .6rem 0;
 }
 .grid-item{
@@ -104,7 +104,7 @@ form *{
 // footer
 footer{
     background: $primary-color;
-    padding: 30px 0; 
+    padding: 30px 0;
     text-align: center;
     position: relative;
     margin-top: 25px;
@@ -130,8 +130,8 @@ footer{
         }
     }
     .grid-sizer,
-    .grid-item { 
-        width: 31%; 
+    .grid-item {
+        width: 31%;
         margin: 1%;
     }
 }
@@ -153,8 +153,8 @@ footer{
         max-width: 90%;
     }
     .grid-sizer,
-    .grid-item { 
-        width: 23%; 
+    .grid-item {
+        width: 23%;
         margin: 1%;
     }
   }
@@ -162,8 +162,8 @@ footer{
   // responsive menu
 $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
-.topbar-responsive {    
-    padding: 10px 40px; 
+.topbar-responsive {
+    padding: 10px 40px;
   .topbar-responsive-logo {
     color: $white;
     vertical-align: middle;
@@ -223,21 +223,22 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
     }
   }
 }
-
-@keyframes fadeIn {
-  from {
-    opacity:0;
-  } to {
-    opacity:1;
+.m-scene {
+  /** Basic styles for an animated element */
+  .scene_el {
+    animation-duration: 0.15s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
   }
-}
-
-@keyframes slideDown {
-  0% {
-    transform: translateY(-100%);
+  .scene_element-fadein {
+    animation-name: fadeIn;
   }
-  100% {
-    transform: translateY(0%);
+
+  .scene_element-slideDown {
+    animation-name: slideDown;
+  }
+  .scene_element-slideUp {
+    animation-name: slideUp;
   }
 }
 //   icons
@@ -249,10 +250,10 @@ License - nucleoapp.com/license/
 -------------------------------- */
 @font-face {
   font-family: 'sarnatec';
-  src:  url('../fonts/sarnatec.eot') format('embedded-opentype'), 
-        url('../fonts/sarnatec.woff2') format('woff2'), 
-        url('../fonts/sarnatec.woff') format('woff'), 
-        url('../fonts/sarnatec.ttf') format('truetype'), 
+  src:  url('../fonts/sarnatec.eot') format('embedded-opentype'),
+        url('../fonts/sarnatec.woff2') format('woff2'),
+        url('../fonts/sarnatec.woff') format('woff'),
+        url('../fonts/sarnatec.ttf') format('truetype'),
         url('../fonts/sarnatec.svg') format('svg');
   font-weight: normal;
   font-style: normal;

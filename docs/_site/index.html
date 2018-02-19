@@ -9,8 +9,10 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:900|Roboto:400,400i,700" rel="stylesheet">
   <link rel="stylesheet" href="css/app.css">
 </head>
-
 <body>
+  <div id="loader">
+    <div id="load-icon"></div>
+</div>
   <div class="grid-container">
     <nav class="top-bar topbar-responsive">
       <div class="top-bar-title">
@@ -28,52 +30,52 @@
       <div id="topbar-responsive" class="topbar-responsive-links">
         <div class="top-bar-right">
           <ul class="dropdown menu vertical medium-horizontal" data-responsive-menu="drilldown medium-dropdown">
-
-
+            
+              
               <li>
                 <a href="about.html">about</a>
-
+                
               </li>
-
+              
               <li>
                 <a href="projects.html">projects</a>
-
+                
               </li>
-
+              
               <li>
                 <a href="">products</a>
-
+                
                 <ul class="menu vertical">
-
+                  
                   <li>
                     <a href="sika.html">Sika Solutions</a>
                   </li>
-
+                  
                   <li>
                     <a href="swiss.html">Swisspearl</a>
                   </li>
-
+                  
                 </ul>
-
+                
               </li>
-
+              
               <li>
                 <a href="contact.html">contact</a>
-
+                
               </li>
-
-
+              
+            
           </ul>
         </div>
       </div>
     </nav>
-    <div class="content">
-      <div class="grid-x grid-margin-y grid-padding-x">
+    <div id="barba-wrapper" class="content">
+      <div class="barba-container grid-x grid-margin-y grid-padding-x">
           <!-- orbit slider -->
 <div class="cell orbit clean-hero-slider" role="region" aria-label="Favorite Space Pictures" data-orbit>
   <div class="orbit-wrapper">
     <ul class="orbit-container">
-
+      
       <li class="orbit-slide">
         <figure class="orbit-figure">
           <img class="orbit-image" src="img/ikea-cheras.jpg" alt="image alt text">
@@ -83,7 +85,7 @@
           </figcaption>
         </figure>
       </li>
-
+      
       <li class="orbit-slide">
         <figure class="orbit-figure">
           <img class="orbit-image" src="img/ytl-residence.jpg" alt="image alt text">
@@ -93,7 +95,7 @@
           </figcaption>
         </figure>
       </li>
-
+      
       <li class="orbit-slide">
         <figure class="orbit-figure">
           <img class="orbit-image" src="img/paramit-factory-penang.jpg" alt="image alt text">
@@ -103,7 +105,7 @@
           </figcaption>
         </figure>
       </li>
-
+      
     </ul>
     <div class="orbit-controls">
       <button class="orbit-previous">
@@ -148,7 +150,8 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
-  <script src="js/app.js"></script>
+    <script src="js/barba.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
